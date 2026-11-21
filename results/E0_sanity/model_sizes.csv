@@ -1,0 +1,4 @@
+model,parameters,payload_bytes,payload_MB,wire_bytes,train_step_64_s,double_backward_ok
+cnn,545098,2180392,2.18,2183309,0.268,True
+resnet18-batch,11173962,44734408,44.734,44770187,6.613,True
+resnet18-group,11173962,44695848,44.696,44714089,3.862,True
