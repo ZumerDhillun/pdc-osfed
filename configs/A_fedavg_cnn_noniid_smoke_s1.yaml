@@ -1,0 +1,19 @@
+# Step 7 (a): smoke test. 2 clients, 500 samples each, 1 round. Only checks that the code runs.
+purpose: "smoke test FedAvg (2 clients, 500 samples each, 1 round)"
+tier: A
+method: fedavg
+model: cnn
+norm: batch                 # ignored by the cnn (it has no normalization layers)
+partition: cifar10_dir0.5_c10_seed100
+n_clients: 2
+samples_per_client: 500
+rounds: 1
+local_epochs: 5
+batch_size: 64              # D1
+lr: 0.01
+lr_schedule: cosine         # D3
+momentum: 0.0               # D2
+weight_decay: 0.0           # D2
+seed: 1
+aggregation: wavg           # D14
+ckpt_every: 1

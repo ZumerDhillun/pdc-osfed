@@ -1,0 +1,21 @@
+# Step 7 (c): the full run. rounds: 100 is the paper's value. Choose it AFTER timing run (b):
+#   total time = seconds per round x rounds. If it does not fit, reduce rounds (or local_epochs)
+#   and write the reason in notes/decisions.md. A reduced run must be called "reduced" in the report.
+purpose: "FedAvg main baseline, small CNN, non-IID, data-size weighted, seed 1"
+tier: A
+method: fedavg
+model: cnn
+norm: batch
+partition: cifar10_dir0.5_c10_seed100
+n_clients: 10
+samples_per_client: null
+rounds: 100
+local_epochs: 5
+batch_size: 64
+lr: 0.01
+lr_schedule: cosine
+momentum: 0.0
+weight_decay: 0.0
+seed: 1
+aggregation: wavg
+ckpt_every: 1               # use 10 for ResNet-18 (each checkpoint is 45 MB)
