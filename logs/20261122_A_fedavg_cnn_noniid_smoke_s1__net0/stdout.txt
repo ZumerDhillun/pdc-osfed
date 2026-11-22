@@ -1,0 +1,10 @@
+run_id : 20261122_A_fedavg_cnn_noniid_smoke_s1__net0
+device : cpu
+purpose: smoke test FedAvg (2 clients, 500 samples each, 1 round)
+client sizes: [500, 500]
+[round   1/1] lr=0.01000 train_loss=1.6850 test_acc=0.1068 test_loss=2.4680 up=4.36MB down=4.36MB round=72.7s total=1.2min
+
+=== checks ===
+bytes   : logged upload per round = 4,360,784 B; 2 x model size from Step 5 = 4,360,784 B -> OK
+logs       : /home/oop/pdc-osfed/logs/20261122_A_fedavg_cnn_noniid_smoke_s1__net0
+checkpoints: /home/oop/pdc-osfed/checkpoints/20261122_A_fedavg_cnn_noniid_smoke_s1__net0

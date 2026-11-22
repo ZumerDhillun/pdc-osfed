@@ -1,0 +1,10 @@
+date: 2026-11-22T13:13:49
+python: 3.13.16
+platform: Linux-6.6.159+-x86_64-with-glibc2.39
+cpu_count: 2
+numpy: 2.4.6
+torch: 2.14.1+cu130
+torchvision: 0.29.1+cu130
+ram_gb: 12.7
+cuda_available: True
+gpu: Tesla T4

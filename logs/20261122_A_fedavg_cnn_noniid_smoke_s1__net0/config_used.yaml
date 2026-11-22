@@ -1,0 +1,18 @@
+purpose: smoke test FedAvg (2 clients, 500 samples each, 1 round)
+tier: A
+method: fedavg
+model: cnn
+norm: batch
+partition: cifar10_dir0.5_c10_seed100
+n_clients: 2
+samples_per_client: 500
+rounds: 1
+local_epochs: 5
+batch_size: 64
+lr: 0.01
+lr_schedule: cosine
+momentum: 0.0
+weight_decay: 0.0
+seed: 1
+aggregation: wavg
+ckpt_every: 1

@@ -1,0 +1,18 @@
+purpose: FedAvg 10 clients full data 3 rounds (timing and sanity)
+tier: A
+method: fedavg
+model: cnn
+norm: batch
+partition: cifar10_dir0.5_c10_seed100
+n_clients: 10
+samples_per_client: null
+rounds: 3
+local_epochs: 5
+batch_size: 64
+lr: 0.01
+lr_schedule: cosine
+momentum: 0.0
+weight_decay: 0.0
+seed: 1
+aggregation: wavg
+ckpt_every: 1

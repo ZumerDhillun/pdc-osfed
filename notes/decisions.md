@@ -23,3 +23,5 @@ Status: DONE = decided, PROVISIONAL = decided for now, revisit at the step shown
 | D17 | Byte counting rule | Main number: payload bytes (tensor data only). Also log wire bytes (torch.save size). Report upload, download and total separately. Paper convention = upload only | DONE | 2026-11-21 | | src/metrics.py payload_bytes and wire_bytes. |
 | D18 | Seeds | Partition seed 100 (fixed). Training seeds 1, 2, 3 | DONE | 2026-11-21 | | Same partition for both methods. |
 | D19 | Data storage | CIFAR-10 cached as uint8 tensors in data/raw/cifar10_uint8.pt, normalized per batch | DONE | 2026-11-21 | | Speed and RAM (10 client processes later). |
+| D20 | Where small-CNN accuracy runs execute | Colab T4 GPU. The Ubuntu VM measured 83 min per round, which is too slow for the full run |
+| D21 | Rounds and local epochs for E1 | 100 rounds, 5 local epochs (paper defaults; completed within Colab T4 GPU time budget) |

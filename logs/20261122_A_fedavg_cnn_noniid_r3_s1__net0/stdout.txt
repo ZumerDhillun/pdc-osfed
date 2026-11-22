@@ -1,0 +1,14 @@
+run_id : 20261122_A_fedavg_cnn_noniid_r3_s1__net0
+device : cpu
+purpose: FedAvg 10 clients full data 3 rounds (timing and sanity)
+client sizes: [3701, 5607, 1996, 4294, 5058, 5869, 2650, 3518, 6244, 11063]
+[round   1/3] lr=0.01000 train_loss=1.3236 test_acc=0.2783 test_loss=1.9995 up=21.80MB down=21.80MB round=1772.8s total=29.5min
+   estimate for the remaining 2 rounds: 59 min
+[round   2/3] lr=0.00750 train_loss=1.1058 test_acc=0.3707 test_loss=1.7587 up=21.80MB down=21.80MB round=2479.4s total=70.9min
+[round   3/3] lr=0.00250 train_loss=1.0142 test_acc=0.4127 test_loss=1.6422 up=21.80MB down=21.80MB round=3476.1s total=128.8min
+
+=== checks ===
+bytes   : logged upload per round = 21,803,920 B; 10 x model size from Step 5 = 21,803,920 B -> OK
+accuracy: round 1 = 0.2783 -> round 3 = 0.4127 -> rising
+logs       : /home/oop/pdc-osfed/logs/20261122_A_fedavg_cnn_noniid_r3_s1__net0
+checkpoints: /home/oop/pdc-osfed/checkpoints/20261122_A_fedavg_cnn_noniid_r3_s1__net0

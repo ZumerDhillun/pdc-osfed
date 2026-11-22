@@ -1,0 +1,2 @@
+run_id,round,test_acc,test_loss,upload_bytes_total,download_bytes_total,round_wall_s,server_wait_s,cum_wall_s,max_client_compute_s
+20261122_A_fedavg_cnn_noniid_smoke_s1__net0,1,0.1068,2.468,4360784,4360784,72.667,0.0,72.667,10.275

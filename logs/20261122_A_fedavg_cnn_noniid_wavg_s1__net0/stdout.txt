@@ -1,0 +1,111 @@
+run_id : 20261122_A_fedavg_cnn_noniid_wavg_s1__net0
+device : cuda
+purpose: FedAvg main baseline, small CNN, non-IID, data-size weighted, seed 1
+client sizes: [3701, 5607, 1996, 4294, 5058, 5869, 2650, 3518, 6244, 11063]
+[round   1/100] lr=0.01000 train_loss=1.3236 test_acc=0.2786 test_loss=1.9993 up=21.80MB down=21.80MB round=10.7s total=0.2min
+   estimate for the remaining 99 rounds: 18 min
+[round   2/100] lr=0.01000 train_loss=1.0933 test_acc=0.3804 test_loss=1.7241 up=21.80MB down=21.80MB round=10.1s total=0.3min
+[round   3/100] lr=0.00999 train_loss=0.9515 test_acc=0.4522 test_loss=1.5156 up=21.80MB down=21.80MB round=10.1s total=0.5min
+[round   4/100] lr=0.00998 train_loss=0.8586 test_acc=0.4957 test_loss=1.3953 up=21.80MB down=21.80MB round=10.0s total=0.7min
+[round   5/100] lr=0.00996 train_loss=0.7983 test_acc=0.5189 test_loss=1.3455 up=21.80MB down=21.80MB round=10.1s total=0.9min
+[round   6/100] lr=0.00994 train_loss=0.7547 test_acc=0.5472 test_loss=1.2663 up=21.80MB down=21.80MB round=10.3s total=1.0min
+[round   7/100] lr=0.00991 train_loss=0.7151 test_acc=0.5554 test_loss=1.2421 up=21.80MB down=21.80MB round=10.3s total=1.2min
+[round   8/100] lr=0.00988 train_loss=0.6844 test_acc=0.5681 test_loss=1.2164 up=21.80MB down=21.80MB round=10.2s total=1.4min
+[round   9/100] lr=0.00984 train_loss=0.6539 test_acc=0.5745 test_loss=1.1873 up=21.80MB down=21.80MB round=10.2s total=1.5min
+[round  10/100] lr=0.00980 train_loss=0.6260 test_acc=0.5953 test_loss=1.1472 up=21.80MB down=21.80MB round=10.4s total=1.7min
+[round  11/100] lr=0.00976 train_loss=0.6007 test_acc=0.5881 test_loss=1.1633 up=21.80MB down=21.80MB round=10.3s total=1.9min
+[round  12/100] lr=0.00970 train_loss=0.5767 test_acc=0.6005 test_loss=1.1365 up=21.80MB down=21.80MB round=10.3s total=2.1min
+[round  13/100] lr=0.00965 train_loss=0.5574 test_acc=0.6152 test_loss=1.1105 up=21.80MB down=21.80MB round=10.1s total=2.2min
+[round  14/100] lr=0.00959 train_loss=0.5331 test_acc=0.6241 test_loss=1.0783 up=21.80MB down=21.80MB round=10.4s total=2.4min
+[round  15/100] lr=0.00952 train_loss=0.5128 test_acc=0.6288 test_loss=1.0673 up=21.80MB down=21.80MB round=10.3s total=2.6min
+[round  16/100] lr=0.00946 train_loss=0.4896 test_acc=0.6346 test_loss=1.0667 up=21.80MB down=21.80MB round=10.2s total=2.7min
+[round  17/100] lr=0.00938 train_loss=0.4711 test_acc=0.6258 test_loss=1.0932 up=21.80MB down=21.80MB round=10.2s total=2.9min
+[round  18/100] lr=0.00930 train_loss=0.4500 test_acc=0.6351 test_loss=1.0806 up=21.80MB down=21.80MB round=10.3s total=3.1min
+[round  19/100] lr=0.00922 train_loss=0.4296 test_acc=0.6323 test_loss=1.1024 up=21.80MB down=21.80MB round=10.4s total=3.2min
+[round  20/100] lr=0.00914 train_loss=0.4149 test_acc=0.6416 test_loss=1.0787 up=21.80MB down=21.80MB round=10.2s total=3.4min
+[round  21/100] lr=0.00905 train_loss=0.3948 test_acc=0.6354 test_loss=1.1142 up=21.80MB down=21.80MB round=10.2s total=3.6min
+[round  22/100] lr=0.00895 train_loss=0.3737 test_acc=0.6518 test_loss=1.0555 up=21.80MB down=21.80MB round=10.5s total=3.8min
+[round  23/100] lr=0.00885 train_loss=0.3597 test_acc=0.6546 test_loss=1.0590 up=21.80MB down=21.80MB round=10.4s total=3.9min
+[round  24/100] lr=0.00875 train_loss=0.3405 test_acc=0.6447 test_loss=1.1121 up=21.80MB down=21.80MB round=10.2s total=4.1min
+[round  25/100] lr=0.00864 train_loss=0.3285 test_acc=0.6562 test_loss=1.0776 up=21.80MB down=21.80MB round=10.2s total=4.3min
+[round  26/100] lr=0.00854 train_loss=0.3100 test_acc=0.6578 test_loss=1.0814 up=21.80MB down=21.80MB round=10.3s total=4.4min
+[round  27/100] lr=0.00842 train_loss=0.2994 test_acc=0.6585 test_loss=1.0878 up=21.80MB down=21.80MB round=10.3s total=4.6min
+[round  28/100] lr=0.00831 train_loss=0.2822 test_acc=0.6528 test_loss=1.1359 up=21.80MB down=21.80MB round=10.3s total=4.8min
+[round  29/100] lr=0.00819 train_loss=0.2712 test_acc=0.6582 test_loss=1.1140 up=21.80MB down=21.80MB round=10.1s total=5.0min
+[round  30/100] lr=0.00806 train_loss=0.2533 test_acc=0.6559 test_loss=1.1316 up=21.80MB down=21.80MB round=10.3s total=5.1min
+[round  31/100] lr=0.00794 train_loss=0.2481 test_acc=0.6559 test_loss=1.1556 up=21.80MB down=21.80MB round=10.4s total=5.3min
+[round  32/100] lr=0.00781 train_loss=0.2263 test_acc=0.6537 test_loss=1.1907 up=21.80MB down=21.80MB round=10.3s total=5.5min
+[round  33/100] lr=0.00768 train_loss=0.2223 test_acc=0.6588 test_loss=1.1758 up=21.80MB down=21.80MB round=10.1s total=5.6min
+[round  34/100] lr=0.00755 train_loss=0.2046 test_acc=0.6562 test_loss=1.2025 up=21.80MB down=21.80MB round=10.4s total=5.8min
+[round  35/100] lr=0.00741 train_loss=0.1993 test_acc=0.6596 test_loss=1.2017 up=21.80MB down=21.80MB round=10.4s total=6.0min
+[round  36/100] lr=0.00727 train_loss=0.1921 test_acc=0.6362 test_loss=1.3449 up=21.80MB down=21.80MB round=10.3s total=6.2min
+[round  37/100] lr=0.00713 train_loss=0.1832 test_acc=0.6578 test_loss=1.2456 up=21.80MB down=21.80MB round=10.1s total=6.3min
+[round  38/100] lr=0.00699 train_loss=0.1797 test_acc=0.6575 test_loss=1.2556 up=21.80MB down=21.80MB round=10.3s total=6.5min
+[round  39/100] lr=0.00684 train_loss=0.1641 test_acc=0.6601 test_loss=1.2537 up=21.80MB down=21.80MB round=10.4s total=6.7min
+[round  40/100] lr=0.00669 train_loss=0.1566 test_acc=0.6575 test_loss=1.2944 up=21.80MB down=21.80MB round=10.3s total=6.9min
+[round  41/100] lr=0.00655 train_loss=0.1498 test_acc=0.6584 test_loss=1.3027 up=21.80MB down=21.80MB round=10.2s total=7.0min
+[round  42/100] lr=0.00639 train_loss=0.1455 test_acc=0.6582 test_loss=1.3352 up=21.80MB down=21.80MB round=10.4s total=7.2min
+[round  43/100] lr=0.00624 train_loss=0.1415 test_acc=0.6583 test_loss=1.3288 up=21.80MB down=21.80MB round=10.4s total=7.4min
+[round  44/100] lr=0.00609 train_loss=0.1360 test_acc=0.6583 test_loss=1.3466 up=21.80MB down=21.80MB round=10.3s total=7.5min
+[round  45/100] lr=0.00594 train_loss=0.1257 test_acc=0.6597 test_loss=1.3631 up=21.80MB down=21.80MB round=10.2s total=7.7min
+[round  46/100] lr=0.00578 train_loss=0.1229 test_acc=0.6607 test_loss=1.3770 up=21.80MB down=21.80MB round=10.4s total=7.9min
+[round  47/100] lr=0.00563 train_loss=0.1196 test_acc=0.6596 test_loss=1.3860 up=21.80MB down=21.80MB round=10.4s total=8.1min
+[round  48/100] lr=0.00547 train_loss=0.1144 test_acc=0.6605 test_loss=1.3877 up=21.80MB down=21.80MB round=10.4s total=8.2min
+[round  49/100] lr=0.00531 train_loss=0.1081 test_acc=0.6587 test_loss=1.4185 up=21.80MB down=21.80MB round=10.1s total=8.4min
+[round  50/100] lr=0.00516 train_loss=0.1088 test_acc=0.6553 test_loss=1.4424 up=21.80MB down=21.80MB round=10.4s total=8.6min
+[round  51/100] lr=0.00500 train_loss=0.1070 test_acc=0.6596 test_loss=1.4277 up=21.80MB down=21.80MB round=10.4s total=8.7min
+[round  52/100] lr=0.00484 train_loss=0.1014 test_acc=0.6601 test_loss=1.4362 up=21.80MB down=21.80MB round=10.3s total=8.9min
+[round  53/100] lr=0.00469 train_loss=0.0924 test_acc=0.6589 test_loss=1.4553 up=21.80MB down=21.80MB round=10.2s total=9.1min
+[round  54/100] lr=0.00453 train_loss=0.0876 test_acc=0.6565 test_loss=1.4717 up=21.80MB down=21.80MB round=10.4s total=9.3min
+[round  55/100] lr=0.00437 train_loss=0.0844 test_acc=0.6589 test_loss=1.4770 up=21.80MB down=21.80MB round=10.4s total=9.4min
+[round  56/100] lr=0.00422 train_loss=0.0812 test_acc=0.6578 test_loss=1.4984 up=21.80MB down=21.80MB round=10.4s total=9.6min
+[round  57/100] lr=0.00406 train_loss=0.0814 test_acc=0.6560 test_loss=1.5151 up=21.80MB down=21.80MB round=10.3s total=9.8min
+[round  58/100] lr=0.00391 train_loss=0.0744 test_acc=0.6582 test_loss=1.5169 up=21.80MB down=21.80MB round=10.3s total=9.9min
+[round  59/100] lr=0.00376 train_loss=0.0750 test_acc=0.6574 test_loss=1.5172 up=21.80MB down=21.80MB round=10.4s total=10.1min
+[round  60/100] lr=0.00361 train_loss=0.0723 test_acc=0.6569 test_loss=1.5351 up=21.80MB down=21.80MB round=10.5s total=10.3min
+[round  61/100] lr=0.00345 train_loss=0.0685 test_acc=0.6567 test_loss=1.5396 up=21.80MB down=21.80MB round=10.3s total=10.5min
+[round  62/100] lr=0.00331 train_loss=0.0679 test_acc=0.6591 test_loss=1.5416 up=21.80MB down=21.80MB round=10.3s total=10.6min
+[round  63/100] lr=0.00316 train_loss=0.0662 test_acc=0.6565 test_loss=1.5574 up=21.80MB down=21.80MB round=10.6s total=10.8min
+[round  64/100] lr=0.00301 train_loss=0.0645 test_acc=0.6546 test_loss=1.5721 up=21.80MB down=21.80MB round=10.5s total=11.0min
+[round  65/100] lr=0.00287 train_loss=0.0637 test_acc=0.6566 test_loss=1.5697 up=21.80MB down=21.80MB round=10.2s total=11.2min
+[round  66/100] lr=0.00273 train_loss=0.0612 test_acc=0.6555 test_loss=1.5791 up=21.80MB down=21.80MB round=10.4s total=11.3min
+[round  67/100] lr=0.00259 train_loss=0.0605 test_acc=0.6554 test_loss=1.5867 up=21.80MB down=21.80MB round=10.4s total=11.5min
+[round  68/100] lr=0.00245 train_loss=0.0601 test_acc=0.6568 test_loss=1.5893 up=21.80MB down=21.80MB round=10.4s total=11.7min
+[round  69/100] lr=0.00232 train_loss=0.0585 test_acc=0.6565 test_loss=1.5984 up=21.80MB down=21.80MB round=10.3s total=11.9min
+[round  70/100] lr=0.00219 train_loss=0.0587 test_acc=0.6562 test_loss=1.6053 up=21.80MB down=21.80MB round=10.3s total=12.0min
+[round  71/100] lr=0.00206 train_loss=0.0578 test_acc=0.6563 test_loss=1.6058 up=21.80MB down=21.80MB round=10.4s total=12.2min
+[round  72/100] lr=0.00194 train_loss=0.0577 test_acc=0.6565 test_loss=1.6088 up=21.80MB down=21.80MB round=10.4s total=12.4min
+[round  73/100] lr=0.00181 train_loss=0.0573 test_acc=0.6575 test_loss=1.6104 up=21.80MB down=21.80MB round=10.2s total=12.5min
+[round  74/100] lr=0.00169 train_loss=0.0578 test_acc=0.6570 test_loss=1.6159 up=21.80MB down=21.80MB round=10.2s total=12.7min
+[round  75/100] lr=0.00158 train_loss=0.0566 test_acc=0.6574 test_loss=1.6153 up=21.80MB down=21.80MB round=10.4s total=12.9min
+[round  76/100] lr=0.00146 train_loss=0.0572 test_acc=0.6567 test_loss=1.6219 up=21.80MB down=21.80MB round=10.4s total=13.1min
+[round  77/100] lr=0.00136 train_loss=0.0567 test_acc=0.6564 test_loss=1.6212 up=21.80MB down=21.80MB round=10.2s total=13.2min
+[round  78/100] lr=0.00125 train_loss=0.0575 test_acc=0.6568 test_loss=1.6221 up=21.80MB down=21.80MB round=10.2s total=13.4min
+[round  79/100] lr=0.00115 train_loss=0.0584 test_acc=0.6567 test_loss=1.6193 up=21.80MB down=21.80MB round=10.4s total=13.6min
+[round  80/100] lr=0.00105 train_loss=0.0592 test_acc=0.6564 test_loss=1.6254 up=21.80MB down=21.80MB round=10.5s total=13.7min
+[round  81/100] lr=0.00095 train_loss=0.0602 test_acc=0.6567 test_loss=1.6265 up=21.80MB down=21.80MB round=10.3s total=13.9min
+[round  82/100] lr=0.00086 train_loss=0.0610 test_acc=0.6564 test_loss=1.6219 up=21.80MB down=21.80MB round=10.3s total=14.1min
+[round  83/100] lr=0.00078 train_loss=0.0620 test_acc=0.6565 test_loss=1.6246 up=21.80MB down=21.80MB round=10.5s total=14.3min
+[round  84/100] lr=0.00070 train_loss=0.0634 test_acc=0.6557 test_loss=1.6214 up=21.80MB down=21.80MB round=10.4s total=14.4min
+[round  85/100] lr=0.00062 train_loss=0.0652 test_acc=0.6565 test_loss=1.6230 up=21.80MB down=21.80MB round=10.3s total=14.6min
+[round  86/100] lr=0.00054 train_loss=0.0671 test_acc=0.6561 test_loss=1.6203 up=21.80MB down=21.80MB round=10.3s total=14.8min
+[round  87/100] lr=0.00048 train_loss=0.0693 test_acc=0.6564 test_loss=1.6185 up=21.80MB down=21.80MB round=10.4s total=15.0min
+[round  88/100] lr=0.00041 train_loss=0.0721 test_acc=0.6561 test_loss=1.6163 up=21.80MB down=21.80MB round=10.4s total=15.1min
+[round  89/100] lr=0.00035 train_loss=0.0749 test_acc=0.6565 test_loss=1.6154 up=21.80MB down=21.80MB round=10.3s total=15.3min
+[round  90/100] lr=0.00030 train_loss=0.0789 test_acc=0.6557 test_loss=1.6137 up=21.80MB down=21.80MB round=10.2s total=15.5min
+[round  91/100] lr=0.00024 train_loss=0.0831 test_acc=0.6563 test_loss=1.6102 up=21.80MB down=21.80MB round=10.4s total=15.6min
+[round  92/100] lr=0.00020 train_loss=0.0887 test_acc=0.6564 test_loss=1.6085 up=21.80MB down=21.80MB round=10.5s total=15.8min
+[round  93/100] lr=0.00016 train_loss=0.0952 test_acc=0.6566 test_loss=1.6058 up=21.80MB down=21.80MB round=10.3s total=16.0min
+[round  94/100] lr=0.00012 train_loss=0.1037 test_acc=0.6567 test_loss=1.6009 up=21.80MB down=21.80MB round=10.2s total=16.2min
+[round  95/100] lr=0.00009 train_loss=0.1153 test_acc=0.6571 test_loss=1.5974 up=21.80MB down=21.80MB round=10.4s total=16.3min
+[round  96/100] lr=0.00006 train_loss=0.1321 test_acc=0.6578 test_loss=1.5927 up=21.80MB down=21.80MB round=10.4s total=16.5min
+[round  97/100] lr=0.00004 train_loss=0.1584 test_acc=0.6577 test_loss=1.5887 up=21.80MB down=21.80MB round=10.4s total=16.7min
+[round  98/100] lr=0.00002 train_loss=0.2037 test_acc=0.6575 test_loss=1.5846 up=21.80MB down=21.80MB round=10.2s total=16.9min
+[round  99/100] lr=0.00001 train_loss=0.2933 test_acc=0.6573 test_loss=1.5812 up=21.80MB down=21.80MB round=10.4s total=17.0min
+[round 100/100] lr=0.00000 train_loss=0.4863 test_acc=0.6584 test_loss=1.5794 up=21.80MB down=21.80MB round=10.4s total=17.2min
+
+=== checks ===
+bytes   : logged upload per round = 21,803,920 B; 10 x model size from Step 5 = 21,803,920 B -> OK
+accuracy: round 1 = 0.2786 -> round 100 = 0.6584 -> rising
+logs       : /content/pdc-osfed/logs/20261122_A_fedavg_cnn_noniid_wavg_s1__net0
+checkpoints: /content/pdc-osfed/checkpoints/20261122_A_fedavg_cnn_noniid_wavg_s1__net0
